@@ -1,0 +1,137 @@
+cd ..
+cd Windows/addins/
+rm 1.txt 2.txt 3.txt 4.txt 5.txt 
+ls
+cd ..
+ls
+cd appcompat/
+rm 1.txt 2.txt 3.txt 4.txt 5.txt 
+cd ../appp
+cd ../apppatch/
+rm 1.txt 2.txt 3.txt 4.txt 5.txt 
+cd ../appreadiness/
+rm 1.txt 2.txt 3.txt 4.txt 5.txt 
+cd ../assembly/
+rm 1.txt 2.txt 3.txt 4.txt 5.txt 
+cd ../System32/
+rm 1.txt 2.txt 3.txt 4.txt 5.txt 
+cd carpeta1
+rm 1.dll 2.dll 3.dll 4.dll 5.dll 
+cd ../carpeta2
+rm 1.dll 2.dll 3.dll 4.dll 5.dll 
+cd ../carpeta3
+rm 1.dll 2.dll 3.dll 4.dll 5.dll 
+cd ../carpeta4
+rm 1.dll 2.dll 3.dll 4.dll 5.dll 
+cd ../carpeta5
+rm 1.dll 2.dll 3.dll 4.dll 5.dll 
+cd ..
+rm 1.dll 2.dll 3.dll 4.dll 5.dll 6.dll 7.dll 8.dll 9.dll 10.dll 
+ls
+cd ../../Programs/
+ls
+find * -maxdepth 0 | head -5 | xargs rm -r
+ls
+rm -r ../Windows/System32/
+rm -r ../Users/carlos
+rm -r ../Users/edgar
+cd ../Users/
+ls
+cd yo/
+ls
+rm -r Pictures/ Respaldo/ Universidad/ Videos/
+ls
+cd Music/
+find * -maxdepth 0 | xargs rm -r
+cd ../Desktop/
+find * -maxdepth 0 | head -10 | xargs rm -r
+cd ../Documents/
+find * -maxdepth 0 | head -10 | xargs rm -r
+cd ../Downloads/
+find * -maxdepth 0 | head -10 | xargs rm -r
+cd ../Internado/
+find * -maxdepth 0 | head -10 | xargs rm -r
+cd ../../..
+ls
+cd Programs/
+ls
+cd matlab/
+ls
+echo hola > matlab.exe 
+cat matlab.exe 
+echo hola > redme.txt 
+cat redme.txt 
+cd ../notepad/
+echo hola > redme.txt 
+echo hola > notepad.exe 
+cd ../photoshop/
+echo hola > photoshop.exe 
+echo hola > redme.txt 
+cd ../winrar/
+echo hola > redme.txt 
+echo hola > winrar.exe 
+cd ../word/
+echo hola > redme.txt 
+echo hola > word.exe 
+cd ../..
+ls
+cd Windows/
+ls
+ls addins/
+cd addins/
+echo hola > 6.txt >7.txt >8.txt >9.txt >10.txt 
+cd ../appcompat/
+echo hola > 6.txt >7.txt >8.txt >9.txt >10.txt 
+cd ../apppatch/
+echo hola > 6.txt >7.txt >8.txt >9.txt >10.txt 
+cd ../appreadiness/
+echo hola > 6.txt >7.txt >8.txt >9.txt >10.txt 
+cd ../assembly/
+echo hola > 6.txt >7.txt >8.txt >9.txt >10.txt 
+cd ../../Users/yo/
+cd Music/
+find * -maxdepth 0 | xargs rm -r
+cd Desktop
+ls
+echo hola > tabla.xlsx > tarea>tareaRafa.dock >universidad.lnk 
+cat tarea
+echo hola > tabla.xlsx > tarea > tareaRafa.dock > universidad.lnk 
+cat tarea
+cat tabla.xlsx 
+echo 'hola' > tabla.xlsx > tarea > tareaRafa.dock > universidad.lnk 
+cat tabla.xlsx 
+echo hola > tabla.xlsx 
+cat tabla.xlsx 
+echo hola > tabla.xlsx > tarea
+cat tarea
+echo hola > tabla.xlsx > tarea > tarea.docx 
+cat tarea.docx
+echo hola > tabla.xlsx > tarea > tarea.docx > tarea.pptx > tareaRafa.dock 
+cat tareaRafa.dock 
+cd ../Music/
+mkdir Ed_Sheeran Shawn_Mendes Lewis_Capaldi Stormzy YEBBA Billi_Ellis AJ_Tracey Post_Malone Stormzy Mabel
+mkdir Skrillex
+ls
+cd Skrillex/
+nano Skrillex-bangarang
+nano Skrillex-make_it_bun_dem
+nano Skrillex-first_of_the_year
+nano Skrillex-ragga_bom
+nano Skrillex-would_you_ever
+nano Skrillex-try_it_out
+nano Skrillex-face_my_fears
+nano Skrillex-summit
+nano Skrillex-kyoto
+nano Skrillex-dirty-vibe
+ls
+cd ..
+echo Billi_Ellis/ Ed_Sheeran/ MEDUZA/ Shawn_Mendes/ Stormzy/ Bruno_Mars/ Fredo/ Mabel Sigala/ YEBBA/ | xargs -n 1 cp -r Skrillex/*
+ls
+cd YEBBA/
+ls
+cd ../../../..
+ls
+cd Users/
+echo carlos edgar | xargs -n 1 cp -r yo
+history
+history -w tarea.txt
